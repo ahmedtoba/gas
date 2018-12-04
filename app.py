@@ -147,5 +147,3 @@ def result():
 
       return render_template("result.html", Valves=Valves, T=T, DTP=DTP, VOP=VOP, DPD=DPD, Pcs=round(Pcs), VCP=VCP, DP60=DP60, S=S, TRO=TRO, result=result, gs=Gs, y=gravity, Di=Di, Dp=Dp, pcm=pcm, ptm=ptm, pk=Pk, ps=Pcs, pwh=Pwh, Ts=Ts, Tb=Tb, pti=Pti, qg=qg, Pup=Pup, Pdn=Pdn, Tup=Tup, k=k, C=C )
 
-if __name__ == '__main__':
-   app.run(debug = True)
